@@ -17,5 +17,6 @@ int main()
 
     // 依次输出该长度
     printf("short=%d, int=%d, char=%d, long=%d", short_length, int_length, char_length, long_length);
+    
     return 0;
 }

@@ -9,9 +9,8 @@ int main()
     // 定义浮点型变量
     float number = 3.16;
 
-
-
     // 输出结果
     printf("a = %d, c = %c, number = %f\n", a, c, number);
+    
     return 0;
 }
