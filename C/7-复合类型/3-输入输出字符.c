@@ -8,4 +8,5 @@ int main() {
     while ((ch = getchar()) != EOF)
         putchar(ch);
     return 0;
+    
 }
