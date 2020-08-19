@@ -27,5 +27,12 @@ int main(void)
 
     printf("i = %d, j = %d\n", i, j);
 
+
+    int a = 100; // 定义变量
+    int *pa = &a;
+    printf("*pa = %d\n", *pa);
+
+    *pa = 200;
+    printf("*pa = %d\n", *pa);
     return 0;
 }
