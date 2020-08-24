@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-/*
-    打开文件和关闭文件
-*/
+/**
+ * fgets函数:获取一行字符串
+ * @return
+ */
 void test(){
+    // 打开文件
     FILE *fp = NULL;
     // 打开文件
     fp = fopen("a.txt", "r");
@@ -15,7 +16,11 @@ void test(){
         return;
     }
 
-    printf("打开成功\n");
+    char buf[128] = "";
+    // 条件遍历
+    while(fgets(buf, sizeof(buf), fp)){
+        printf("buf = %s\n", buf);
+    }
     // 关闭fp
     fclose(fp);
 }
