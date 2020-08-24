@@ -1,6 +1,6 @@
 #include <iostream>
 /**
- * 宏函数和普通函数
+ * 宏函数
  */
 using namespace std;
 // 定义宏函数

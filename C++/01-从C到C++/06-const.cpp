@@ -32,6 +32,7 @@ struct Person{
 
 // 声明函数
 void test03(){
+    // 无参构造
     const Person p1{};
     Person * p = (Person *)&p1;
     p->age = 18;
@@ -41,8 +42,8 @@ void test03(){
     cout << "姓名:" << p->name <<endl<<"年龄:" << p->age << endl;
 }
 int main() {
-   // 1.调用函数
-   // test02();
-   test03();
+    // 1.调用函数
+    // test02();
+    test03();
     return 0;
 }

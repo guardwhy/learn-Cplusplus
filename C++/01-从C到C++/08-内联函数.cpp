@@ -21,6 +21,11 @@ int main(int argc, char *argv[])
     int c = function(++a, b);
     // 输出 a b c的值
     cout << "a:"<< a << endl << "b:"<< b << endl << "c:" << c << endl;
+    /*
+        a:2
+        b:3
+        c:2
+    */
 
     return 0;
 }
