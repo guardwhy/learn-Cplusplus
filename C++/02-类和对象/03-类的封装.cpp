@@ -28,7 +28,7 @@ public:
 void test(){
     // 创建对象
     Person p;
-    p.name = 'kobe';
+    p.name = "kobe";
     // p.car = "法拉第";  保护权限,在类外不可以访问
     // p.password = 134566; 私有权限，在类外不可以访问
 }
