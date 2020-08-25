@@ -20,7 +20,7 @@ public:
 
 int main() {
     // 定义结构体变量
-    class Student stu;
+    Student stu;
     // 给结构体成员变量赋值
     stu.name = "curry";
     stu.age = 10;
