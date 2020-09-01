@@ -2,7 +2,7 @@
 #include <string.h>
 using namespace std;
 /**
- * 通过class关键字定义类
+ * 对象指针
  * @return
 */
 // 定义类student
@@ -20,13 +20,15 @@ public:
 };
 
 int main() {
-    // 定义类Student对象
-     Student stu;
-    // 给结构体成员变量赋值
-    stu.name = "curry";
-    stu.age = 10;
-    stu.score = 98.00;
+    // 定义类指针对象
+    Student *pStu = new Student;
+    // 给Student类成员变量赋值
+    pStu->name = "curry";
+    pStu->age = 10;
+    pStu->score = 98.00;
     // 调用函数
-    stu.display();
+    pStu->display();
+    // 删除对象
+    delete pStu;
     return 0;
 }
